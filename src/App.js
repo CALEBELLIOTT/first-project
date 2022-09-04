@@ -1,12 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
-import { Header } from './Components/Header';
+import { TikTakToe } from "./Components/TikTakToe";
+
 
 function App() {
   return (
     <div>
-      <Header p='hello' />
-      <Header></Header>
+      <TikTakToe></TikTakToe>
     </div>
   );
 }
