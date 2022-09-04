@@ -1,12 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
-import { TikTakToe } from "./Components/TikTakToe";
+import { Game } from "./Components/TikTakToe";
+
 
 
 function App() {
   return (
     <div>
-      <TikTakToe></TikTakToe>
+      <Game></Game>
     </div>
   );
 }
