@@ -12,6 +12,9 @@ code {
     monospace;
 }
 
+.app {
+  padding: 3rem;
+}
 
 .board {
   display: flex;
@@ -20,12 +23,16 @@ code {
 
 .board-row {}
 
-.square {
-  border: 2px solid black;
-  padding: 1rem;
-}
+.square {}
 
 
 p {
   margin: 0;
+}
+
+.square-container {
+  height: 2rem;
+  width: 2rem;
+  border: 2px solid black;
+  padding: 1rem;
 }

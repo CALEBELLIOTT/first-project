@@ -43,6 +43,7 @@ export class Board extends React.Component {
   render() {
     return (
       <div>
+        <h3>It is {this.state.turn}'s turn</h3>
         <div className="board">
           <div className="board-row">
             {this.renderSquare(0)}
@@ -65,12 +66,12 @@ export class Board extends React.Component {
   }
 }
 
-export class Square extends React.Component {
-  render() {
-    return (
-      <div className="square" onClick={() => { this.props.onClick() }}>
-        <p>{this.props.value}</p>
+function Square(props) {
+  return (
+    <div className="square-container" onClick={() => { props.onClick() }}>
+      <div className="square">
+        <p>{props.value}</p>
       </div>
-    )
-  }
+    </div>
+  )
 }

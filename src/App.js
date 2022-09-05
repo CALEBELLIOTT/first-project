@@ -6,7 +6,7 @@ import { Game } from "./Components/TikTakToe";
 
 function App() {
   return (
-    <div>
+    <div className="app">
       <Game></Game>
     </div>
   );
